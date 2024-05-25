@@ -43,7 +43,7 @@ export default {
     </h1>
 
     <div
-      class="sm:flex justify-between sm:w-full sm:px-10 text-justify"
+      class="sm:flex sm:justify-between sm:w-full sm:px-10 sm:text-justify"
       v-for="(item, index) in aboutFirstSection"
       :key="index"
     >
@@ -126,7 +126,7 @@ export default {
     </div>
 
     <div
-      class="sm:flex justify-between sm:w-full sm:px-10 text-justify"
+      class="sm:flex sm:justify-between sm:w-full sm:px-10 sm:text-justify"
       v-for="(item, index) in aboutSecondSection"
       :key="index"
     >
@@ -161,7 +161,7 @@ export default {
 
 @media (min-width: 640px) {
   .background {
-    background-position: bottom 900px left 70vw;
+    background-position: bottom 470px left 68vw;
   }
 }
 </style>

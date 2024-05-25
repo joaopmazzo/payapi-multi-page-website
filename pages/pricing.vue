@@ -125,12 +125,12 @@ export default {
 <style scoped>
 .background {
   background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
-  background-position: bottom 2330px right 115%;
+  background-position: bottom 2430px right 115%;
 }
 
 @media (min-width: 640px) {
   .background {
-    background-position: bottom 900px left 70vw;
+    background-position: bottom 1050px left 68vw;
   }
 }
 </style>

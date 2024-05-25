@@ -10,14 +10,14 @@
       </NuxtLink>
 
       <div
-        class="max-sm:block text-secondary-san-juan-blue font-light font-public-sans text-body leading-body flex items-center gap-10"
+        class="max-sm:hidden text-secondary-san-juan-blue font-light font-public-sans text-body leading-body flex items-center gap-10"
       >
         <NuxtLink :to="{ path: '/pricing', hash: '#anchor' }">Pricing</NuxtLink>
         <NuxtLink :to="{ path: '/about', hash: '#anchor' }">About</NuxtLink>
         <NuxtLink :to="{ path: '/contact', hash: '#anchor' }">Contact</NuxtLink>
       </div>
       <button
-        class="max-sm:block px-7 py-3 bg-primary-dark-pink rounded-3xl shadow-md text-primary-link-water-white font-bold font-public-sans text-body leading-body"
+        class="max-sm:hidden px-7 py-3 bg-primary-dark-pink rounded-3xl shadow-md text-primary-link-water-white font-bold font-public-sans text-body leading-body"
       >
         Schedule a Demo
       </button>

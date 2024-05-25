@@ -1,6 +1,6 @@
 <template>
   <div
-    class="background bg-[#EDF3F8] bg-no-repeat flex flex-col items-center text-center px-6 py-20 gap-6"
+    class="background bg-[#EDF3F8] bg-no-repeat flex flex-col items-center text-center px-6 sm:px-24 py-20 gap-6"
   >
     <div class="grid">
       <img
@@ -51,56 +51,65 @@
         alt="Nvidia Logo"
       />
     </div>
-    <h1
-      class="text-primary-link-water-white font-DM-serif text-h3-big sm:text-h2 leading-h3-big sm:leading-h2 tracking-h3-big sm:tracking-h2 pb-4"
-    >
-      Who we work with
-    </h1>
-    <p
-      class="text-primary-link-water-white font-light font-public-sans text-body leading-body"
-    >
-      Today, millions of people around the world have successfully connected
-      their accounts to apps they love using our API. We provide developers with
-      thee tools they need to create easy and accessible experiences for their
-      users.
-    </p>
-    <!-- here goes a button -->
+    <div class="flex flex-col items-center gap-6 sm:px-40">
+      <h1
+        class="text-primary-link-water-white font-DM-serif text-h3-big sm:text-h2 leading-h3-big sm:leading-h2 tracking-h3-big sm:tracking-h2 pb-4"
+      >
+        Who we work with
+      </h1>
+      <p
+        class="text-secondary-light-san-juan-blue font-light font-public-sans text-body leading-body"
+      >
+        Today, millions of people around the world have successfully connected
+        their accounts to apps they love using our API. We provide developers
+        with thee tools they need to create easy and accessible experiences for
+        their users.
+      </p>
+      <!-- here goes a button -->
+    </div>
   </div>
 
-  <div class="bg-[#EDF3F8] flex flex-col items-center text-center px-6 py-20">
-    <img
-      src="../assets/home/desktop/illustration-easy-to-implement.svg"
-      alt="terminal with code"
-    />
-    <h1
-      class="text-secondary-san-juan-blue font-light font-DM-serif text-h3-big sm:text-h2 leading-h3-big sm:leading-h2 tracking-h3-big sm:tracking-h2 pb-6"
-    >
-      Easy to implement
-    </h1>
-    <p
-      class="text-secondary-light-san-juan-blue font-light font-public-sans text-body leading-body"
-    >
-      Our API comes with just a few lines of code. You'll be up running in no
-      time. We built our documentation page to integrate payments functionality
-      with ease.
-    </p>
-    <img
-      src="../assets/home/desktop/illustration-simple-ui.svg"
-      alt=""
-    />
-    <h1
-      class="text-secondary-san-juan-blue font-light font-DM-serif text-h3-big sm:text-h2 leading-h3-big sm:leading-h2 tracking-h3-big sm:tracking-h2 pb-6"
-    >
-      Simple Ui & UX
-    </h1>
-    <p
-      class="text-secondary-light-san-juan-blue font-light font-public-sans text-body leading-body"
-    >
-      Our pre-built form is easy to integrate in your app or website's checkout
-      flow and designed to optimize conversion.
-    </p>
+  <div
+    class="bg-[#EDF3F8] flex flex-col items-center text-center gap-20 sm:gap-24 px-6 py-20"
+  >
+    <div class="flex flex-col items-center text-center sm:px-24">
+      <img
+        src="../assets/home/desktop/illustration-easy-to-implement.svg"
+        alt="terminal with code"
+      />
+      <h1
+        class="text-secondary-san-juan-blue font-light font-DM-serif text-h3-big sm:text-h2 leading-h3-big sm:leading-h2 tracking-h3-big sm:tracking-h2 pb-6"
+      >
+        Easy to implement
+      </h1>
+      <p
+        class="text-secondary-light-san-juan-blue font-light font-public-sans text-body leading-body"
+      >
+        Our API comes with just a few lines of code. You'll be up running in no
+        time. We built our documentation page to integrate payments
+        functionality with ease.
+      </p>
+    </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-2 pt-20">
+    <div class="flex flex-col items-center text-center sm:px-24">
+      <img
+        src="../assets/home/desktop/illustration-simple-ui.svg"
+        alt=""
+      />
+      <h1
+        class="text-secondary-san-juan-blue font-light font-DM-serif text-h3-big sm:text-h2 leading-h3-big sm:leading-h2 tracking-h3-big sm:tracking-h2 pb-6"
+      >
+        Simple Ui & UX
+      </h1>
+      <p
+        class="text-secondary-light-san-juan-blue font-light font-public-sans text-body leading-body"
+      >
+        Our pre-built form is easy to integrate in your app or website's
+        checkout flow and designed to optimize conversion.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-2">
       <div class="flex flex-col items-center gap-4 sm:max-w-56">
         <img
           class="pb-4"
@@ -162,7 +171,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col items-center gap-10 w-full sm:py-24">
+    <div class="flex flex-col items-center gap-10 w-full">
       <h1
         class="text-secondary-san-juan-blue font-light font-DM-serif text-h3-big leading-h3-big tracking-h3-big"
       >
